@@ -40,6 +40,6 @@ class VariableTest extends TestCase
     public function testGetBooleanFalse()
     {
         // false が返ってくるはず
-        $this->assertEquals(true, $this->target->getBooleanFalse());
+        $this->assertEquals(false, $this->target->getBooleanFalse());
     }
 }
