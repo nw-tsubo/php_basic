@@ -28,6 +28,11 @@ class Arrays
         $statistic = [];
 
         // TODO: ここで、連想配列 $statistic を作成する
+        $statistic['num'] = count($nums);
+        $statistic['total'] = array_sum($nums);
+        $statistic['max'] = max($nums);
+        $statistic['min'] = min($nums);
+        $statistic['ave'] = $statistic['total'] / $statistic['num'];
 
         return $statistic;
     }

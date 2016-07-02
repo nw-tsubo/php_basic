@@ -17,6 +17,7 @@ class Variable
     public function getString()
     {
         // TODO: ここで、変数 $ret に "hello" をセットする
+        $ret = 'hello';
 
         return $ret;
     }
@@ -31,6 +32,7 @@ class Variable
     public function getInt()
     {
         // TODO: ここで、変数 $ret に 1 をセットする
+        $ret = 1;
 
         return $ret;
     }
@@ -45,6 +47,7 @@ class Variable
     public function getFloat()
     {
         // TODO: ここで、変数 $ret に 1.0 をセットする
+        $ret = 1.0;
 
         return $ret;
     }
@@ -59,6 +62,7 @@ class Variable
     public function getBooleanTrue()
     {
         // TODO: ここで、変数 $ret に true をセットする
+        $ret = true; 
 
         return $ret;
     }
@@ -73,6 +77,7 @@ class Variable
     public function getBooleanFalse()
     {
         // TODO: ここで、変数 $ret に false をセットする
+        $ret = false; 
 
         return $ret;
     }

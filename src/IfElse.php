@@ -22,6 +22,11 @@ class IfElse
     {
         // TODO: ここで、引数に取った値の大きい方を $ret にセットする
         // if 文を使って記述すること
+        if ($a > $b) {
+            $ret = $a;
+        } else {
+            $ret = $b;
+        }
 
         return $ret;
     }
@@ -41,6 +46,7 @@ class IfElse
     {
         // TODO: ここで、引数に取った値の大きい方を $ret にセットする
         // 三項演算子を使って１行で記述すること
+        $ret = $a > $b ? $a : $b;
 
         return $ret;
     }
@@ -56,6 +62,11 @@ class IfElse
     {
         // TODO: ここで、絶対値を $ret にセットすること
         // if 文を使って記述すること
+        if ($num < 0) {
+            $ret = $num * -1;
+        } else {
+            $ret = $num;
+        }
         
         return $ret;
     }

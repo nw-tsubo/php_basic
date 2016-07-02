@@ -15,6 +15,7 @@ class Intro
     public function helloWorld()
     {
         // TODO: ここで "Hello World!" と画面に表示する
+        echo 'Hello World!';
     }
 
     /**
@@ -25,6 +26,6 @@ class Intro
     public function greeting()
     {
         // TODO: ここで "こんにちは" を return で返す
-        return "";
+        return "こんにちは";
     }
 }

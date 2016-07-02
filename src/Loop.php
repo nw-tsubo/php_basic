@@ -24,6 +24,9 @@ class Loop
         $sequence = [];
 
         // TODO: ここで、等差数列の配列 $sequence を作成する
+        for ($i = 0; $i < $num; $i++) {
+            $sequence[] = $init + $diff * $i;
+        }
         
         return $sequence;
     }
@@ -44,6 +47,9 @@ class Loop
         $charLine = "";
 
         // TODO: ここで、$char を $num 回分連続した文字列 $charLine を作成する
+        for ($i = 0; $i < $num; $i++) {
+            $charLine .= $char;
+        }
         
         return $charLine;
     }
