@@ -10,7 +10,7 @@ $ mv composer.phar /usr/local/bin/composer
 ## セットアップ方法
 
 ```
-$ gitclone https://github.com/keiko_php/php.git
+$ git clone https://github.com/nw-tsubo/php_basic.git
 $ composer install
 ```
 
