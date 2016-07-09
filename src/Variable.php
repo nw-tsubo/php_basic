@@ -81,4 +81,18 @@ class Variable
 
         return $ret;
     }
+
+    /**
+     * null を返す
+     *
+     * 変数 $ret に null をセットして返す
+     *
+     * @return null
+     */
+    public function getNull()
+    {
+        // TODO: ここで、変数 $ret に null をセットする
+
+        return $ret;
+    }
 }
