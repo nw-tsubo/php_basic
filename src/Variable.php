@@ -62,7 +62,7 @@ class Variable
     public function getBooleanTrue()
     {
         // TODO: ここで、変数 $ret に true をセットする
-        $ret = true; 
+        $ret = true;
 
         return $ret;
     }
@@ -77,7 +77,7 @@ class Variable
     public function getBooleanFalse()
     {
         // TODO: ここで、変数 $ret に false をセットする
-        $ret = false; 
+        $ret = false;
 
         return $ret;
     }
@@ -92,6 +92,7 @@ class Variable
     public function getNull()
     {
         // TODO: ここで、変数 $ret に null をセットする
+        $ret = null;
 
         return $ret;
     }

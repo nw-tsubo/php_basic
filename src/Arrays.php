@@ -48,11 +48,14 @@ class Arrays
      * @param mixed $key 値を返したいカラム
      * @return array 単一カラムの値の配列
      */
-    public function getArrayColumn(array $input, mixed $key)
+    public function getArrayColumn(array $input, $key)
     {
         $values = [];
 
         // TODO: ここで、$input から $key カラムのデータのみを抜き出し、$values 配列にセットする
+        foreach ($input as $row) {
+            $values[] = $row[$key];
+        }
  
         return $values;
     }
