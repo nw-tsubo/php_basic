@@ -43,7 +43,7 @@ class Arrays
      * @param mixed $key 値を返したいカラム
      * @return array 単一カラムの値の配列
      */
-    public function getArrayColumn(array $input, mixed $key)
+    public function getArrayColumn(array $input, $key)
     {
         $values = [];
 
