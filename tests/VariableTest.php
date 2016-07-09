@@ -42,4 +42,10 @@ class VariableTest extends TestCase
         // false が返ってくるはず
         $this->assertEquals(false, $this->target->getBooleanFalse());
     }
+
+    public function testGetNull()
+    {
+        // NULL が返ってくるはず
+        $this->assertEquals(null, $this->target->getNull());
+    }
 }
