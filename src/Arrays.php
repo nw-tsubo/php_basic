@@ -18,6 +18,7 @@ class Arrays
      *     'min' => $min,       // 最小値
      *     'ave' => $ave,       // 平均値
      * ]
+     * 平均値は小数点第 1 位で四捨五入する
      *
      * @param array $nums 任意の数値の配列
      * @return array
