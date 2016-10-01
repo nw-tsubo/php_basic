@@ -61,7 +61,7 @@ class IfElse
     public function getAbsolute($num)
     {
         // TODO: ここで、絶対値を $ret にセットすること
-        // if 文を使って記述すること
+        // abs() 関数を使わずに if 文を使って絶対値を算出してください
         if ($num < 0) {
             $ret = $num * -1;
         } else {

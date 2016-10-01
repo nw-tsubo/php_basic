@@ -53,6 +53,7 @@ class Arrays
         $values = [];
 
         // TODO: ここで、$input から $key カラムのデータのみを抜き出し、$values 配列にセットする
+        // array_colum() 関数は使わずに、同様の機能をプログラミングしてください。
         foreach ($input as $row) {
             $values[] = $row[$key];
         }
