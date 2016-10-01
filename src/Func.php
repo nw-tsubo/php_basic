@@ -30,7 +30,7 @@ class Func
      */
     public function htmlEscape($html)
     {
-        // TODO: ここで未来の文字列をエスケープする html_escape() 関数を呼び出す
+        // TODO: ここで特殊文字列をエスケープする html_escape() 関数を呼び出す
         // 関数はこのファイルの下の方で定義し、引数を適切に渡すこと
         return html_escape();
     }
