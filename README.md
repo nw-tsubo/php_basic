@@ -13,8 +13,11 @@ $ mv composer.phar /usr/local/bin/composer
 
 ## セットアップ方法
 
+任意のディレクトリに移動して以下のコマンドを実行してください。
+
 ```
 $ git clone https://github.com/nw-tsubo/php_basic.git
+$ cd php_basic
 $ composer install
 ```
 

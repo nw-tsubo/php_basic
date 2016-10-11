@@ -14,7 +14,7 @@ class IfElse
      * if 文を使って記述すること
      *
      * @param integer $a 整数
-     * @param integer $b 数整
+     * @param integer $b 整数
      *
      * @return integer
      */
