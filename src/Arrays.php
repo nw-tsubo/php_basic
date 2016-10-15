@@ -32,7 +32,7 @@ class Arrays
         $statistic['total'] = array_sum($nums);
         $statistic['max'] = max($nums);
         $statistic['min'] = min($nums);
-        $statistic['ave'] = $statistic['total'] / $statistic['num'];
+        $statistic['ave'] = round($statistic['total'] / $statistic['num']);
 
         return $statistic;
     }

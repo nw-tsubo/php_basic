@@ -30,7 +30,7 @@ class ArraysTest extends TestCase
             'total' => 55,
             'max' => 10,
             'min' => 1,
-            'ave' => 5.5,
+            'ave' => 6,
         ];
         $this->assertEquals($expected2, $this->target->getStatistic([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
     }
